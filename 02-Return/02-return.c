@@ -40,7 +40,7 @@ int main(void)
     printf("리턴 결과: %d\n", result);
     printf("\n");
 
-    
+
     printf("----- End \n");
 
     /* 정상 종료 */
@@ -63,7 +63,7 @@ int CallReturn2(void)
     printf("----- 정상 / 완료 종료 - 2\n");
 }
 
-int CallReturn3(void) 
+int CallReturn3(void)
 {
     printf("----- 실패 / 에러 종료 - 1\n");
     return -1;
